@@ -36,6 +36,7 @@ gulp.task ('scripts', function () {
     .pipe (gulp.dest ('./dist'));
 });
 
+
 // 4 Default任务
 gulp.task ('default', function () {
   console.log ('hello world');
